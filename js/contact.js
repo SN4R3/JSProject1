@@ -17,7 +17,11 @@ function submit() {
     // change boolean flag only when
     // all input values have a 'length' that is not 'falsey'
     // aka not 0
-    if (form.name.length && form.email.length && form.phone.length && form.msg.length && form.ref.length) {
+    if (form.name.length && 
+        form.email.length && 
+        form.phone.length && 
+        form.msg.length && 
+        form.ref.length) {
         isValid = true;
     }
 
