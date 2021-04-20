@@ -1,0 +1,70 @@
+/* Brand Colours */
+
+/* Dark: #1B1817 */
+/* Red: #9F0617 */
+/* Light Red: #AB192A */
+/* Orange: #EE5627 */
+
+main {
+    margin: 100px 0;
+    min-height: 70vh;
+}
+
+/* Nav */
+.navbar {
+    background: #1b1817;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: -16px;
+}
+
+#footer-top-row {
+    background: #313131;
+}
+
+#footer-bottom-row {
+    background-color: #ab192a;
+}
+
+/* Footer Socials */
+.social {
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.social i {
+    color: #ab192a;
+}
+
+/* Footer Links */
+.footer-link {
+    margin: 0 10px;
+}
+.footer-link a {
+    color: #dedede;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Buttons */
+.btn-cta {
+    background: #ee5627;
+    color: white;
+}
+
+.btn-red {
+    background: #9f0617;
+    color: white;
+}
+
+.btn-light-red {
+    background: #ab192a;
+    color: white;
+}

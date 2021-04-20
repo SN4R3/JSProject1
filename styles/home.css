@@ -1,0 +1,18 @@
+#homepage-container {
+    margin-top: 0;
+}
+
+#hero-image {
+    background-image: url("../img/bk.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-image #overlay {
+    background: #000000a3;
+    color: white;
+}

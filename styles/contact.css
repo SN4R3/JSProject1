@@ -1,0 +1,9 @@
+#form-container {
+    max-width: 768px;
+    margin: 55px auto;
+}
+
+#success,
+#error-msg {
+    display: none;
+}
