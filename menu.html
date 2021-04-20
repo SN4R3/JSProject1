@@ -11,12 +11,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
         <!-- Global CSS -->
         <link href="./styles/index.css" rel="stylesheet" />
-        <!-- [pagename_lower] CSS -->
-        <link href="./styles/[pagename_lower].css" rel="stylesheet" />
+        <!-- menu CSS -->
+        <link href="./styles/menu.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <a class="navbar-brand" href="./index.html"> <img src="./img/logo.png" width="50px" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +41,12 @@
             </div>
         </nav>
         <!-- [PAGENAME] -->
-        <main id="[pagename_lower]-container" class="page-container">
+        <main id="menu-container" class="page-container">
             <!-- Page Content Here -->
-            <h1 class="text-center">Menu</h1>
+            <h1 class="text-center">Our Menu</h1>
 
             <div class="container my-4">
-                <div class="row" id="menu-container">
+                <div class="row" id="products-container">
 
                 </div>
             </div>
@@ -86,9 +86,12 @@
         </footer>
 
         <!-- Javascript -->
-        <script src="data/categories.js"></script>
+
+        <!-- Import products.js's data -->
         <script src="data/products.js"></script>
+        <!-- 'Global' JS -->
         <script src="js/index.js"></script>
+        <!-- Menu page specific JS -->
         <script src="js/menu.js"></script>
     </body>
 </html>

@@ -9,7 +9,7 @@ function submit() {
         email: document.getElementById("email").value,
         phone: document.getElementById("phone").value,
         msg: document.getElementById("msg").value,
-        ref: document.getElementById("ref").value
+        ref: document.getElementById("newsletter").value
     };
     // set boolean flag
     var isValid = false;
@@ -32,9 +32,9 @@ function submit() {
         str += "<p>Phone: " + form.phone + "</p>";
         str += "<p>Message: " + form.msg + "</p>";
 
-        document.getElementById("success").style.display = "show";
+        document.getElementById("success").style.display = "block";
         document.getElementById("output").innerHTML = str;
     } else {
-        document.getElementById("error-msg").style.display = "none";
+        document.getElementById("error-msg").style.display = "block";
     }
 }
